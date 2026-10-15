@@ -1,0 +1,11 @@
+# Ejercicio 5: Confirmación para continuar
+
+respuesta = "S"
+
+while respuesta == "S" or respuesta == "s":
+    print("Procesando solicitud...")
+    print("Solicitud procesada correctamente.")
+
+    respuesta = input("¿Deseas realizar otra operación? (S/N): ")
+
+print("El proceso a finalizado. Tenga buen dia :D")
